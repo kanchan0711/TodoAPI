@@ -1,0 +1,30 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "this is my todo api",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanchan0711/TodoAPI.git"
+  },
+  "keywords": [],
+  "author": "kanchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanchan0711/TodoAPI/issues"
+  },
+  "homepage": "https://github.com/kanchan0711/TodoAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4"
+  }
+}
